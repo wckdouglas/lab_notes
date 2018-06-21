@@ -61,6 +61,7 @@ You can scale up accordingly.
 
 
 #### Preparation of 5'App-R1R ####
+5´ DNA Adenylation Kit (NEB E2610S)
 
 | Material           |        | Volumn | 
 |:---                |:---:   |---:    | 
@@ -125,6 +126,8 @@ You can scale up accordingly.
 
 
 ## R1-adapter ligation ##
+Thermostable 5´ AppDNA/RNA Ligase (NEB M0319S)
+
 | Material                    |        | Volumn   | 
 |:---                        |:---:   |---:     | 
 | 10X NEB-1 buffer            |        | 2 uL     |  
@@ -140,6 +143,9 @@ You can scale up accordingly.
 
 
 ## PCR amplification and addition of sequencing primers ##
+KAPA HiFi HotStart ReadyMix (KAPA KK2602)
+
+
 | Material                  |        | Volumn   | 
 |:---                       |:---:   |---:      | 
 | Barcoded PCR primer       |        | 2.5 uL   |  
