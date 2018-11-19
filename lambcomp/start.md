@@ -27,18 +27,18 @@ Below is the directory tree on *lambcomp* that you may find helpful:
 
 ```
 /stor
-├── home 
-  	└── {username}      <———————— (your home directory, everything is backed up, 100GB limits)
-            ├── {project 1 scripts}
+├── home
+    └── {username}      <———————— (your home directory, everything is backed up, 100GB limits)
+            ├── {project 1 scripts} 
             └── {project 2 scripts}
-├── scratch 
-	└── Lambowitz
-		    └── {username}   <———————— (your SCARTCH directory, everything is not backed up)
+├── scratch
+    └── Lambowitz
+            └── {username}   <———————— (your SCARTCH directory, everything is not backed up)
 ├── work
- 	└── Lambowitz		
+    └── Lambowitz
             ├── {username} <———————— (your WORK directory, everything is backed up)
-                    └── {project 1 data and results}     
-		    ├── Data
+                    └── {project 1 data and results}
+            ├── Data
                 └── NGS		<———— (shared within lab, folder storing all the NGS data we have)
                     ├── JA1?????  <—— (project number from GSAF)
                     └── md_anderson_Sequencing <—— (sequencing jobs from md anderson, very disorganized now)
