@@ -56,9 +56,9 @@ Below is the directory tree on *lambcomp* that you may find helpful:
     - 100 GB limits
 - work directory is the place to put all the result/data in  
     - **backed up**
-    - up to 60TB for the whole lab)
+    - up to 60TB for the whole lab
 - scratch directory, you can ignore it, or if you are trying something out, you can use it 
-    - not being backed up)
+    - not being backed up
     
 
 ## Data sharing ##
