@@ -67,6 +67,7 @@ Below is the directory tree on *lambcomp* that you may find helpful:
     │            └── hg19                <—— human genome reference 
     │            
     └── LambGuest     <———————— (For data sharing)
+            │         
             ├── {Research group 1}
             ├── {Research group 2}
             .
