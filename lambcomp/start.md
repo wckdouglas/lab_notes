@@ -18,7 +18,7 @@ ssh {username}@lambcomp01.ccbb.utexas.edu
 If you need to download something from *lambcomp* to you local machine (e.g. the lab mac), you will do:
 
 ```
-scp {username}@lambcomp01.ccbb.utexas.edu:(full path to your file, starts with ```/stor/```) (where you want it to be on your computer)
+scp {username}@lambcomp01.ccbb.utexas.edu:(full path to your file, starts with /stor) (where you want it to be on your computer)
 ```
 
 ### Organization of the lab storage space ###
