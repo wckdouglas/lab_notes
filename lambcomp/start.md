@@ -42,7 +42,7 @@ Below is the directory tree on *lambcomp* that you may find helpful:
                 └── NGS		<———— (shared within lab, folder storing all the NGS data we have)
                     ├── JA1?????  <—— (project number from GSAF)
                     └── md_anderson_Sequencing <—— (sequencing jobs from md anderson, very disorganized now)
-		    └── ref     <———— (shared within lab, reference genome)     
+            └── ref     <———— (shared within lab, reference genome)
                 ├── Ecoli
                     └── k12_mg1655.fa   <—— (this is mg1655 reference fasta)
                 └── hg19                <—— human genome reference 
