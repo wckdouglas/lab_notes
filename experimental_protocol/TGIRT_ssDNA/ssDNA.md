@@ -68,7 +68,7 @@ You can scale up accordingly.
 | H$_2$O             |        | 13 uL  |  
 | 10X rxn buffer     |        | 2 uL   |
 | 1mM ATP            |        | 2 uL   |
-| 10 uM 6N UMI R1R   |        | 1 uL   |
+| 100 uM 6N UMI R1R   |        | 1 uL   |
 | Mth RNA ligase     |        | 2 uL   |
 | Total              |        | 20 uL  |
 
@@ -89,8 +89,8 @@ You can scale up accordingly.
 | Total              |        | 15 uL    |
 \* 15 uL is enough for 7 rxns, can scale up if needed
 
-* Incubate at 82$^o$C for 2 min
-* Cool down to 25$^o$C with 10% ramp/0.1$^o$C/second
+* Incubate at 82$^o$C for 2 min (start preparing DNA template)
+* Cool down to 25$^o$C with 10% ramp or 0.1$^o$C/second
 
 ## Prepare DNA template ##
 
