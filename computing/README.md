@@ -1,10 +1,10 @@
 # Using Lambowitz lab server #
 
-The Lambowitz lab server (*lambcomp*) is managed by Center for [Biomedical Research Support](https://sites.cns.utexas.edu/cbrs/cbrs-administration).
+The Lambowitz lab server (*lambcomp*) is managed by [Center for Biomedical Research Support (CBRS)](https://sites.cns.utexas.edu/cbrs/cbrs-administration).
 
 ## Requesting an account  ##
 
-To request an account, you will need to visit the [account managment system](https://rctf-account-request.icmb.utexas.edu/cqb), and make sure to select **Lambowitz Alan** as your affiliation.
+To request an account, you will need to visit the [CBRS POD account managment system](https://rctf-account-request.icmb.utexas.edu/cqb), and make sure to select **Lambowitz Alan** as your affiliation.
 
 
 ## Basics ##
@@ -15,7 +15,7 @@ Everytime you need to get on *lambcomp*, you will do this in terminal:
 ssh {username}@lambcomp01.ccbb.utexas.edu
 ```
 
-If you need to download something from *lambcomp* to you local machine (e.g. the lab mac), you will do:
+If you need to download something from *lambcomp* to you local machine, you will do:
 
 ```
 scp {username}@lambcomp01.ccbb.utexas.edu:(full path to your file, starts with /stor) (where you want it to be on your computer)
@@ -49,22 +49,29 @@ Below is the directory tree on *lambcomp* that you may find helpful:
     ├── Lambowitz
     │       │         
     │       ├── {username} <———————— (your WORK directory, everything is backed up)
-    │       │         ├──  {project 1 data and results}
-    │       │         ├──  {project 2 data and results}
-    │       │         .
-    │       │         .
-    │       │         .
-    │       │         └──  {project N data and results}
+    │       │     │
+    │       │     ├──  {project 1 data and results}
+    │       │     ├──  {project 2 data and results}
+    │       │     .
+    │       │     .
+    │       │     .
+    │       │     └──  {project N data and results}
     │       │         
     │       ├── Data
+    │       │     │
+    │       │     ├── BA_data   <———— (shared within lab, Bioanalyzer backup) 
+    │       │     │
+    │       │     ├── lambo-ftp   <———— (Jenny's crystallography data backup) 
+    │       │     │
     │       │     └── NGS		<———— (shared within lab, folder storing all the NGS data we have)
     │       │         ├── JA1?????  <—— (project number from GSAF)
     │       │         └── md_anderson_Sequencing <—— (sequencing jobs from md anderson, very disorganized now)
     │       │         
     │       └── ref     <———— (shared within lab, reference genome)
-    │            ├── Ecoli              <——  Ecoli referenc
-    │            │     └── k12_mg1655.fa   <—— (this is mg1655 reference sequence)
-    │            └── hg19                <—— human genome reference 
+    │             ├── Ecoli              <——  Ecoli referenc
+    │             │     └── k12_mg1655.fa   <—— (this is mg1655 reference sequence)
+    │             └── hg19                <—— human genome reference 
+    │
     │            
     └── LambGuest     <———————— (For data sharing)
             │         
@@ -78,13 +85,13 @@ Below is the directory tree on *lambcomp* that you may find helpful:
 ```
 
 - home directory is the place that I put my scripts/codes.  
-    - **backed up**
+    - **is backed up periodically**
     - 100 GB limits
 - work directory is the place to put all the result/data in  
-    - **backed up**
+    - **is backed up periodically**
     - up to 60TB for the whole lab
 - scratch directory, you can ignore it, or if you are trying something out, you can use it 
-    - not being backed up
+    - is not backed up
     
 
 ## Data sharing ##
