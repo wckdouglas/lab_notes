@@ -95,10 +95,10 @@ Below is the directory tree on *lambcomp* that you may find helpful:
     
 
 ## Data sharing ##
-When data needed to be shared with research groups that are not affiliated with UT, these data can be copied to ```/stor/Work/LambGuest/{Resaerch Group}```, such that they can be downloaded via:
+When data needed to be shared with research groups that are not affiliated with UT, these data can be copied to ```/stor/work/LambGuest/{Resaerch Group}```, such that they can be downloaded via:
 
 ```
-scp lambGuest@lambcomp01.ccbb.utexas.edu:/stor/Work/LambGuest/{Resaerch Group} .
+scp lambGuest@lambcomp01.ccbb.utexas.edu:/stor/work/LambGuest/{Resaerch Group} .
 ```
 
 ## Rstudio/Jupyter notebook ##
