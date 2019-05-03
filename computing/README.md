@@ -84,13 +84,13 @@ Below is the directory tree on *lambcomp* that you may find helpful:
             └── {Research group N} 
 ```
 
-- home directory is the place that I put my scripts/codes.  
+- home directory ```(/stor/home/{username})``` is the place that I put my scripts/codes.  
     - **is backed up periodically**
     - 100 GB limits
-- work directory is the place to put all the result/data in  
+- work directory ```(/stor/Work/{username})``` is the place to put all the result/data in  
     - **is backed up periodically**
     - up to 60TB for the whole lab
-- scratch directory, you can ignore it, or if you are trying something out, you can use it 
+- scratch directory ```(/scratch/home/{username})```, you can ignore it, or if you are trying something out, you can use it 
     - is not backed up
     
 
